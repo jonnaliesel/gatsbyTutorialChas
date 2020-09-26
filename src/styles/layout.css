@@ -53,10 +53,13 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+  color: #777;
 }
 a:active,
 a:hover {
   outline-width: 0;
+  color: #2677ff;
 }
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
